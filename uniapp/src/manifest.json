@@ -1,0 +1,27 @@
+{
+  "name": "电商商城",
+  "appid": "__UNI__ECOMMERCE",
+  "description": "电商平台小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "电商商城",
+    "router": {
+      "mode": "hash",
+      "base": "./"
+    },
+    "optimization": {
+      "treeShaking": {
+        "enable": true
+      }
+    }
+  },
+  "mp-weixin": {
+    "appid": "touristappid",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  }
+}
